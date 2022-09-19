@@ -1,16 +1,19 @@
 # netflix_clone
+  
+This is a smiple Netflix Clone.  
+This clone has many features that where implemented using varius packages.  
+This project diplayes assets from the assets folder as well as fetching other data from a REST API.  
+  
+### Video player  
+This application has a video player inwhich the user can play videos and have some basic playback controlls.  
+This was done by using the `video_player` and the `wakelock`.  
+The `wakelock` packages allows the device to stay on without turning off the screen. This feature is used when the video player is active.  
+In the clone, I have used the open source movie `Sintel`.  
+  
+### Search Screen
+When the earch screen is opened, there will be a lits of the current top 10 Movies and Tv-Shows.  
+These Movies are fetched from the `TMDB API`.  
+The search bar takes in a query and using state mangment and the `provider` package, the query is based to the API, and the result is then sent back to the UI to be updated.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Coming Soon Screen
+Same as the Search Screen, this screen displayes the upcoming movies and tv-shows using the same API, TMDB.  
