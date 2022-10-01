@@ -1,9 +1,6 @@
 import 'package:netflix_flutter/models/models.dart';
 import 'package:netflix_flutter/services/networking.dart';
 
-const apiKey = '6bdb80b1cf8213fd9e64371cb19f9b52';
-// API key 1 = '6bdb80b1cf8213fd9e64371cb19f9b52' (aghazaly3)
-
 const baseURL = 'https://api.themoviedb.org/3/';
 const imageBaseUrl = 'https://image.tmdb.org/t/p/original/';
 
